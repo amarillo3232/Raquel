@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#game-container {
+
+
+    max-width: 600px;
+    margin: auto;
+    background: #2220;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#dialogue-box {
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #3700b3;
+}
+
+/* Fondo del juego */
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('imágenes/proyecto/img/espiritu pajaro.png') center/cover no-repeat;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Imagen del espíritu */
+#spirit {
+    display: block;
+    margin: 20px auto;
+    max-width: 250px;
+    opacity: 0.8;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.6));
+}
+
+
